@@ -16,6 +16,8 @@ class Doctor
   end
 
   def patients
+    #Either lines of code work
+    #@appointments.collect do |appointment|
     self.appointments.collect do |appointment|
       appointment.patient
     end
